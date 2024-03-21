@@ -11,7 +11,12 @@ header {
 
 /* INIZIO LAYOUT */
 .container {
-    max-width: 1200px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.container-short{
+    max-width: 600px;
     margin: 0 auto;
 }
 
@@ -29,9 +34,18 @@ header {
     height: 30px;
 }
 
+.col-100{
+    width: 100%;
+    height: 250px;
+}
+
 /* FINE LAYOUT */
 
 /* INIZIO UTILITY */
+.py-20{
+    padding: 20px 0;
+}
+
 .d-flex{
     display: flex;
 }
@@ -58,5 +72,13 @@ header {
 
 .bg-orange{
     background-color: orange;
+}
+
+.bg-blue{
+    background-color: blue;
+}
+
+.bg-violet{
+    background-color: violet;
 }
 /* FINE UTILITY */
