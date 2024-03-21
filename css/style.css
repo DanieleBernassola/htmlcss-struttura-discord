@@ -9,6 +9,10 @@ header {
     padding: 10px 0;
 }
 
+footer{
+    background-color: lightcyan;
+}
+
 /* INIZIO LAYOUT */
 .container {
     max-width: 800px;
@@ -64,9 +68,15 @@ header {
     height: 250px;
 }
 
+.col-mini{
+    font-size: 15px;
+    padding: 5px;
+}
+
 /* FINE LAYOUT */
 
 /* INIZIO UTILITY */
+/* INIZIO UTILITY PADDING E MARGIN*/
 .py-20{
     padding: 20px 0;
 }
@@ -83,6 +93,11 @@ header {
     margin-bottom: 1px;
 }
 
+.pt-20{
+    padding-top: 20px;
+}
+/* FINE UTILITY PADDING E MARGIN*/
+/* INIZIO UTILITY FLEX */
 .d-flex{
     display: flex;
 }
@@ -103,10 +118,15 @@ header {
     justify-content: flex-end;
 }
 
+.space-between{
+    justify-content: space-between;
+}
+
 .border-dashed{
     border: 2px dotted black;
 }
-
+/* FINE UTILITY FLEX */
+/* INIZIO UTILITY BG-COLOR */
 .bg-orange{
     background-color: orange;
 }
@@ -150,4 +170,9 @@ header {
 .bg-cyan{
     background-color: cyan;
 }
+
+.bg-lightcyan{
+    background-color: rgb(129, 255, 255);
+}
+/* FINE UTILITY BG-COLOR*/
 /* FINE UTILITY */
