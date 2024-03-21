@@ -39,6 +39,16 @@ header {
     height: 250px;
 }
 
+.col-60{
+    width: 60%;
+    height: 250px;
+}
+
+.col-40{
+    width: 40%;
+    height: 250px;
+}
+
 /* FINE LAYOUT */
 
 /* INIZIO UTILITY */
@@ -80,5 +90,21 @@ header {
 
 .bg-violet{
     background-color: violet;
+}
+
+.bg-white{
+    background-color: white;
+}
+
+.bg-cyan{
+    background-color: rgb(86, 154, 255);
+}
+
+.bg-pink{
+    background-color: pink;
+}
+
+.bg-lightgray{
+    background-color: lightgray;
 }
 /* FINE UTILITY */
